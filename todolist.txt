@@ -1,0 +1,86 @@
+#HTML CODE
+
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="card-tourism">
+        <div class="todo-card-header">
+            <h1 class="main-heading"> Todolist </h1>
+            <p class="paragraph"> Each day I will accomplish one thing on my todolist </p>
+
+        </div>
+        <p class="todo-title"> Read a Book </p>
+        <p class="para1"> I don't think that the human race will survive the next thousand years, unless we spread into space.There are too many accidents that can befall life on a single planet.But i'm an optimist...</p>
+
+        <div class="todo-footer">
+            <button class="button">Start</button>
+            <p class="text-underline">Don't skip introduction</p>
+
+        </div>
+
+    </div>
+
+#CSS
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.card-tourism {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+.todo-card-header {
+    text-align: center;
+}
+
+
+.main-heading {
+    font-family: "roboto";
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.paragraph {
+
+    color: white;
+    font-family: "roboto";
+    font-size: 16px;
+}
+.todo-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+.para1 {
+    color: white;
+    font-family: "roboto";
+    font-size: 16px;
+}
+.todo-footer {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+}
+
+.text-underline {
+    color: white;
+    font-family: "roboto";
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
